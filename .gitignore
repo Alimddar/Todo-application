@@ -1,0 +1,23 @@
+# Ignore .env files
+.env
+.env.*
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore database files
+*.sqlite3
+*.sqlite
+*.db
+*.db-journal
+
+# Ignore log files
+*.log
+
+# Ignore npm and Yarn dependency files
+package-lock.json
+yarn.lock
+
+# Ignore build files (if applicable)
+dist/
+build/
